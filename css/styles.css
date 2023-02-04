@@ -1,19 +1,33 @@
-.body{
-  font-family: "Open Sans", sans-serif;
+.body {
+  font-family: "Open Sans" sans-serif;
   letter-spacing: 0.2em;
 }
-  
-  
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
 
 .list {
   list-style: none;
 }
 
 /* ------------------Header---------------- */
-.container{
+.container {
   width: 1170px;
   padding-left: 215px;
   padding-right: 215px;
+  margin: 0 auto;
+
   outline: 2px solid red;
 }
 .header {
@@ -25,10 +39,12 @@
   align-items: center;
 }
 .nav-list {
- display: flex;
+  display: flex;
+  text-align: center;
 }
 
-.nav-item {
+.nav-item + .nav-item {
+  margin-left: 30px;
 }
 .nav-title,
 .nav-title-item {
@@ -57,11 +73,23 @@
   text-decoration: none;
 }
 .contact-button {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  margin-left: 43px;
+
   letter-spacing: 0.09em;
   background-color: #524a45;
   cursor: pointer;
+}
+.contacts-container {
  
 }
+
 .social-media {
 }
 .social-media-list {
@@ -163,11 +191,10 @@
   color: #ffffff;
 }
 
-
 .price-item {
 }
 .service,
-.service-price{
+.service-price {
   font-size: 18px;
   line-height: 1.67;
   color: #9da4bd;
@@ -203,34 +230,33 @@
 }
 
 .features-title {
-font-family: 'Raleway', sans-serif;
-font-size: 42px;
-line-height: 1.17;
-letter-spacing: 0.05em;
-color: #303030;
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
 .features-text {
-font-size: 18px;
-line-height: 1.67;
-color: #555555;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #555555;
 }
 /* ------------OUR BARBERS-------------- */
 .barbers {
 }
 .barbers-pre-title {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-text-transform: uppercase;
-color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
 }
 .barbers-title {
-
-font-family: 'Raleway', sans-serif;
-font-size: 42px;
-line-height: 1.17;
-letter-spacing: 0.05em;
-color: #303030;
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
 .barbers-list {
 }
@@ -238,50 +264,51 @@ color: #303030;
 .barbers-item {
 }
 .barbers-name {
-font-size: 18px;
-line-height: 1.39;
-color: #303030;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #303030;
 }
 .barbers-descr {
-    font-size: 14px;
-    line-height: 1.36;
-    color: #FF6C00;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #ff6c00;
 }
 /* PHOTOS */
 .portfolio {
 }
 .portfolio-pre-title {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #303030;
 }
 .portfolio-list {
 }
 .portfolio-item {
 }
 /* Online booking */
-.online-booking{
-    background-color: #524a45;
+.online-booking {
+  background-color: #524a45;
 }
-.online-booking-title{
-font-family: 'Raleway', sans-serif;
-font-size: 42px;
-line-height: 49px;
-letter-spacing: 0.05em;
-color: #FFFFFF;}
+.online-booking-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
 
 /* --------CONTACTS----------- */
 
 .contacts {
-    background-color: #524a45;
+  background-color: #524a45;
 }
 .contacts-title {
-font-family: 'Raleway', sans-serif;
-font-size: 42px;
-line-height: 1.17;
-letter-spacing: 0.05em;
-color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
 .adress {
 }
@@ -290,42 +317,41 @@ color: #FFFFFF;
 }
 .adress-tel,
 .adress-mail,
-.adress-street{
-font-family: inherit;
-font-style: normal;
-font-size: 18px;
-line-height: 1.67;
-color: #9DA4BD;
+.adress-street {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #9da4bd;
 }
 
 .adress-hours {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #ffffff;
 }
-.adress-text{
-font-size: 18px;
-line-height: 1.67;
-color: #9DA4BD;
+.adress-text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #9da4bd;
 }
 /* --------FOOTER------------ */
 .footer {
 }
 .footer-text {
-
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-color: #9DA4BD;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #9da4bd;
 }
 .footer-list {
 }
 .footer-item {
 }
 .footer-icon {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #303030;
 }
