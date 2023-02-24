@@ -38,7 +38,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+
 }
 .btn {
   min-width: 160px;
@@ -71,11 +71,25 @@ img {
   background-color: gray;
   padding-top: 32px;
   padding-bottom: 32px;
+  background-image: linear-gradient(
+      to right,
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    
+    ),
+    url(/images/Slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
 }
+ 
+
 
 .header-container {
   display: flex;
   align-items: center;
+  mar
 }
 .header-nav {
   display: flex;
@@ -151,11 +165,26 @@ img {
 
 /* --------------HERO------------- */
 
-.hero {
+.hero-wrap {
+  background-image: linear-gradient(
+      to right,
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    
+    ),
+    url(/images/Slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
 }
+
 .hero-container {
   display: flex;
+ 
 }
+ 
+
 .hero-list {
   width: 100px;
 }
